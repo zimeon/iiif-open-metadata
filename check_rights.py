@@ -49,7 +49,13 @@ with open("README.md", "r") as fh:
                         version = "bad array @context"
                 elif manifest_json["@context"] == "http://iiif.io/api/presentation/2/context.json":
                     version = "v2"
+                elif manifest_json["@context"] == "https://iiif.io/api/presentation/2/context.json":
+                    version = "v2"
+                    print("BAD https @context %s" % (manifest_json["@context"]))
                 elif manifest_json["@context"] == "http://iiif.io/api/presentation/3/context.json":
+                    version = "v3"
+                elif manifest_json["@context"] == "https://iiif.io/api/presentation/3/context.json":
+                    print("BAD https @context %s" % (manifest_json["@context"]))
                     version = "v3"
                 else:
                     version = manifest_json["@context"]

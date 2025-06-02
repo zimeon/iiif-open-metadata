@@ -18,7 +18,8 @@ attribution: 1
 requiredStatement: None
 
 Getting https://www.blavatnikarchive.org/api/data/es/iiif-manifest/10133?type=mirador&site=baf...
-IIIF Version: https://iiif.io/api/presentation/2/context.json
+BAD https @context https://iiif.io/api/presentation/2/context.json
+IIIF Version: v2
 rights (or license in v2): None
 attribution: 1
 requiredStatement: None
@@ -161,8 +162,7 @@ rights (or license in v2): None
 attribution: None
 requiredStatement: None
 Summary of versions:
-   v2 was 88.9% (24)
-   https://iiif.io/api/presentation/2/context.json was 3.7% (1)
+   v2 was 92.6% (25)
    v3 was 7.4% (2)
 55.6% manifests used rights (15 out of 27)
 85.2% manifests used attribution (23 out of 27)
